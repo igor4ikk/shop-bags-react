@@ -1,0 +1,38 @@
+.navbox {
+    background: #2A3170;
+    display: flex;
+    justify-content: space-between;
+}
+.navrow{
+    display: flex;
+}
+.navbar{
+    list-style-type: none;
+    font-size: 28px;
+    font-weight: 600;
+    margin: 20px 0 10px 0;  
+}
+.navwrapper{
+    margin: 20px 0 20px 0;
+}
+
+.btn-buy{
+     background: transparent;
+     padding: 10px 20px 10px 20px;
+     font-size: 18px;
+     font-weight: 600;
+     border-radius: 10px;
+     border: 2px solid #1998F7;
+     margin: 40px;
+     background: #72C5CF;
+}  
+
+.btn-buy:hover{
+    background: #46B6FF;
+    color: #729FCF;
+}
+
+.products{
+    color: white;
+    text-decoration: none;
+}
